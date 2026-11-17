@@ -2,7 +2,7 @@
   "kind": "grant_document",
   "id": "grant_document-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "published"
+  "dataset": "D-1",
+  "grant_revision": "v1",
+  "recipient": "机构甲"
 }

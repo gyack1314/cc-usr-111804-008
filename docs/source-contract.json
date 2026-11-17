@@ -1,0 +1,24 @@
+{
+  "roles": [
+    "grant_document",
+    "delivery_receipt"
+  ],
+  "relation_field": "dataset",
+  "required_fields": {
+    "grant_document": [
+      "dataset",
+      "grant_revision",
+      "recipient"
+    ],
+    "delivery_receipt": [
+      "dataset",
+      "delivery_revision",
+      "receipt_no"
+    ]
+  },
+  "source_identity": [
+    "kind",
+    "id",
+    "revision"
+  ]
+}

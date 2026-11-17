@@ -1,8 +1,8 @@
 {
   "kind": "delivery_receipt",
-  "id": "delivery_receipt-B",
+  "id": "delivery_receipt-A",
   "revision": "v1",
-  "period": "2026-11-13",
-  "subject": "sample-A",
-  "state": "pending"
+  "dataset": "D-1",
+  "delivery_revision": "v1",
+  "receipt_no": "ACK-1"
 }
