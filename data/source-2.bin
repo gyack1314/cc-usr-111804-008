@@ -1,0 +1,8 @@
+{
+  "kind": "delivery_receipt",
+  "id": "delivery_receipt-B",
+  "revision": "v1",
+  "period": "2026-11-13",
+  "subject": "sample-A",
+  "state": "pending"
+}

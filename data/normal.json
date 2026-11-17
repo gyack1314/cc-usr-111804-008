@@ -1,0 +1,33 @@
+{
+  "allowed_origins": [
+    "https://local-source-008.example.test"
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-008.example.test/records/grant_document-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 153,
+        "sha256": "e1c097ca0baf0ef60afb1ec03914ddab9f236d934131530ea57f51aaf133144b"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-008.example.test/records/delivery_receipt-B",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-2.bin",
+        "status": 200,
+        "bytes": 155,
+        "sha256": "9c7f8204eecf4543451b6c54f9d60debf4ba77af07d50aa2927e611a77ea9d1a"
+      }
+    }
+  ]
+}
