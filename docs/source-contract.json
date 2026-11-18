@@ -1,7 +1,8 @@
 {
   "roles": [
     "grant_document",
-    "delivery_receipt"
+    "delivery_receipt",
+    "grant_restriction"
   ],
   "relation_field": "dataset",
   "required_fields": {
@@ -14,6 +15,13 @@
       "dataset",
       "delivery_revision",
       "receipt_no"
+    ],
+    "grant_restriction": [
+      "dataset",
+      "grant_revision",
+      "recipient",
+      "effective_on",
+      "scope"
     ]
   },
   "source_identity": [
