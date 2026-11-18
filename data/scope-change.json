@@ -1,0 +1,18 @@
+{
+  "allowed_origins": [
+    "https://local-source-008.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-008.example.test/records/grant_document-A",
+      "kind": "grant_document",
+      "required": true
+    },
+    {
+      "url": "https://local-source-008.example.test/records/grant_restriction-A",
+      "kind": "grant_restriction",
+      "required": true
+    }
+  ],
+  "steps": []
+}
