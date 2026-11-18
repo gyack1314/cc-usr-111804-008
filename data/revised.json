@@ -6,12 +6,14 @@
     {
       "url": "https://local-source-008.example.test/records/grant_document-A",
       "kind": "grant_document",
-      "required": true
+      "required": true,
+      "expected_revision": "v2"
     },
     {
       "url": "https://local-source-008.example.test/records/delivery_receipt-B",
       "kind": "delivery_receipt",
-      "required": true
+      "required": true,
+      "expected_revision": "v1"
     }
   ],
   "steps": [
