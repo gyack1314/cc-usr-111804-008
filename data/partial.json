@@ -1,0 +1,32 @@
+{
+  "allowed_origins": [
+    "https://local-source-008.example.test"
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-008.example.test/records/grant_document-A",
+      "kind": "grant_document",
+      "required": true
+    },
+    {
+      "url": "https://local-source-008.example.test/records/delivery_receipt-B",
+      "kind": "delivery_receipt",
+      "required": true
+    }
+  ],
+  "steps": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "https://local-source-008.example.test/records/grant_document-A",
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "response": {
+        "file": "source-1.bin",
+        "status": 200,
+        "bytes": 152,
+        "sha256": "7c73781f98c6b7e0113eefae6fb95edbf9f66e23e011a19eeb32e7ecc0798fdb"
+      }
+    }
+  ]
+}

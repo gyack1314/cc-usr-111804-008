@@ -29,5 +29,17 @@
         "sha256": "2e5b063411d4b06fbe762a574a36588439d688dd748ff7388e9686051b01bdf2"
       }
     }
+  ],
+  "sources": [
+    {
+      "url": "https://local-source-008.example.test/records/grant_document-A",
+      "kind": "grant_document",
+      "required": true
+    },
+    {
+      "url": "https://local-source-008.example.test/records/delivery_receipt-B",
+      "kind": "delivery_receipt",
+      "required": true
+    }
   ]
 }
